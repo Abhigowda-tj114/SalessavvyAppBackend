@@ -22,7 +22,7 @@ import com.example.demo.repository.UserRepository;
 import com.example.demo.service.UserService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:5174")
 @RequestMapping("/api/users")
 public class UserController {
 
