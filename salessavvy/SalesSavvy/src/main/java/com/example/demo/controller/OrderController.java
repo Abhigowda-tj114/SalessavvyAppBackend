@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true") // Allow cross-origin requests
+@CrossOrigin(origins = "http://localhost:5174", allowCredentials = "true") // Allow cross-origin requests
 @RequestMapping("/api/orders")
 public class OrderController {
 
